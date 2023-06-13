@@ -1,6 +1,5 @@
-let app = require('./server/config/app');
-let debug = require('debug')('henry-assignment1:server');
-let http = require('http');
+let debug = require('debug')('henry-assignment1.herokuapp:server');
+let http = require('https');
 
 /**
  * Get port from environment and store in Express.
