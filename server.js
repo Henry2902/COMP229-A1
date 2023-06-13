@@ -4,4 +4,4 @@ var app = express();
 app.listen(3030);
 module.exports = app;
 
-console.log('Server running at http://localhost:3030/');
+console.log('Server running at https://henry-assignment1.herokuapp.com/');
