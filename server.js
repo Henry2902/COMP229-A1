@@ -1,4 +1,7 @@
-const http = require('http');
+process.env.NODE_ENV = process.env.NODE_ENV || 'development';
+var express = require('./config/express');
+var app = express();
+app.listen(3030);
+module.exports = app;
 
-const hostname = 'henry-assignment1.herokuapp.com';
-const port = 3000;
+console.log('Server running at http://localhost:3030/');
